@@ -160,7 +160,7 @@ class _MyHomePageState extends State<MyHomePage>
                 )),
             Container(
                 height: MediaQuery.of(context).size.height * 0.2 +
-                    ((MediaQuery.of(context).size.height * 0.2) *
+                    ((MediaQuery.of(context).size.height * 0.25) *
                         _animationController.value),
                 child: _animationController.value > 0.0
                     ? Container(
